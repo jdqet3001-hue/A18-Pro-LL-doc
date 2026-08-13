@@ -1,10 +1,10 @@
 
-log 12/08/26
+# log 12/08/26
 
 -setting up the experiment environment
 -done some training in ghidra with arm64, going to start the actual research now
 
-log 13/08/26
+# log 13/08/26
 
 acclaration here, i will drop the logs of the console and wireshark later while i try to fix the current situation of my phone 
 
@@ -13,7 +13,7 @@ and i also reported the charging problem to apple, hoping that they provide a so
 
 > ⚠️ Experimental research — unconfirmed behavior
 
-# DO NOT TRY TO REPLICATE THIS WITH YOUR OWN PERSONAL DEVICE AS IT MIGHT FAIL TO CHARGE DUE TO UNKNOWN CONDTIONS (for now)
+## DO NOT TRY TO REPLICATE THIS WITH YOUR OWN PERSONAL DEVICE AS IT MIGHT FAIL TO CHARGE DUE TO UNKNOWN CONDTIONS (for now)
 
 This repository documents an unexpected USB/DFU state observed during
 experimentation with an iPhone and Debian GNU/Linux 13 (trixie).
@@ -73,3 +73,7 @@ The complete reproduction procedure is intentionally not published
 while the behavior remains under investigation.
 
 (proof of concepts will be dropping next week maybe, depends if the bug is easy to reproduce)
+
+# log 13/08/26 Part 2
+
+the iphone booted on normally after the "hard reset" i will start to investigate what really happened and upload the poc and console logs
