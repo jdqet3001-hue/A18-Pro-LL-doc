@@ -8,7 +8,7 @@ log 13/08/26
 
 acclaration here, i will drop the logs of the console and wireshark later while i try to fix the current situation of my phone 
 
-and i also reported the charging problem to apple, hopong that they provide a dolution without (possibly) ruinning the current research
+and i also reported the charging problem to apple, hoping that they provide a solution without (possibly) ruinning the current research
 # iPhone DFU/USB State Investigation
 
 > ⚠️ Experimental research — unconfirmed behavior
