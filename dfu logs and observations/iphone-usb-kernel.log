@@ -1,0 +1,234 @@
+[ 2274.522976] usb 7-1.1: USB disconnect, device number 3
+[ 2278.568230] usb 7-1.1: new high-speed USB device number 7 using xhci_hcd
+[ 2278.666599] usb 7-1.1: New USB device found, idVendor=05ac, idProduct=12a8, bcdDevice=17.01
+[ 2278.666602] usb 7-1.1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2278.666604] usb 7-1.1: Product: iPhone
+[ 2278.666604] usb 7-1.1: Manufacturer: Apple Inc.
+[ 2278.666605] usb 7-1.1: SerialNumber: [REDACTED_SERIAL]
+[ 2278.939600] ipheth 7-1.1:4.2: ipheth_enable_ncm: usb_control_msg: 0
+[ 2278.939720] ipheth 7-1.1:4.2: Apple iPhone USB Ethernet device attached
+[ 2278.955627] ipheth 7-1.1:4.2 enxf6a310815bba: renamed from eth0
+[ 4096.477551] apple-mfi-fastcharge 7-1.1: USB disconnect, device number 7
+[ 4096.514032] ipheth 7-1.1:4.2: Apple iPhone USB Ethernet now disconnected
+[ 6462.132426] usb 7-1.1: new high-speed USB device number 8 using xhci_hcd
+[ 6462.235462] usb 7-1.1: New USB device found, idVendor=05ac, idProduct=12a8, bcdDevice=17.01
+[ 6462.235464] usb 7-1.1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 6462.235465] usb 7-1.1: Product: iPhone
+[ 6462.235466] usb 7-1.1: Manufacturer: Apple Inc.
+[ 6462.235467] usb 7-1.1: SerialNumber: [REDACTED_SERIAL]
+[ 6462.404468] ipheth 7-1.1:4.2: ipheth_enable_ncm: usb_control_msg: 0
+[ 6462.404584] ipheth 7-1.1:4.2: Apple iPhone USB Ethernet device attached
+[ 6462.405638] ipheth 7-1.1:4.2 enxf6a310815bba: renamed from eth0
+[ 6511.584653] apple-mfi-fastcharge 7-1.1: USB disconnect, device number 8
+[ 6511.626833] ipheth 7-1.1:4.2: Apple iPhone USB Ethernet now disconnected
+[ 6515.382621] usb 7-1.1: new high-speed USB device number 9 using xhci_hcd
+[ 6515.485654] usb 7-1.1: New USB device found, idVendor=05ac, idProduct=12a8, bcdDevice=17.01
+[ 6515.485659] usb 7-1.1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 6515.485661] usb 7-1.1: Product: iPhone
+[ 6515.485661] usb 7-1.1: Manufacturer: Apple Inc.
+[ 6515.485662] usb 7-1.1: SerialNumber: [REDACTED_SERIAL]
+[ 6515.652422] ipheth 7-1.1:4.2: ipheth_enable_ncm: usb_control_msg: 0
+[ 6515.652548] ipheth 7-1.1:4.2: Apple iPhone USB Ethernet device attached
+[ 6515.653642] ipheth 7-1.1:4.2 enxf6a310815bba: renamed from eth0
+[ 6736.864939] apple-mfi-fastcharge 7-1.1: USB disconnect, device number 9
+[ 6736.907172] ipheth 7-1.1:4.2: Apple iPhone USB Ethernet now disconnected
+[ 6848.166845] usb 7-1.1: new high-speed USB device number 10 using xhci_hcd
+[ 6848.259081] usb 7-1.1: New USB device found, idVendor=05ac, idProduct=1281, bcdDevice= 0.00
+[ 6848.259085] usb 7-1.1: New USB device strings: Mfr=2, Product=3, SerialNumber=4
+[ 6848.259086] usb 7-1.1: Product: Apple Mobile Device (Recovery Mode)
+[ 6848.259087] usb 7-1.1: Manufacturer: Apple Inc.
+[ 6848.259088] usb 7-1.1: SerialNumber: [REDACTED_SERIAL]
+[ 7074.273371] apple-mfi-fastcharge 7-1.1: USB disconnect, device number 10
+[ 7242.932271] usb 7-1.1: new high-speed USB device number 11 using xhci_hcd
+[ 7243.036464] usb 7-1.1: New USB device found, idVendor=05ac, idProduct=1281, bcdDevice= 0.00
+[ 7243.036469] usb 7-1.1: New USB device strings: Mfr=2, Product=3, SerialNumber=4
+[ 7243.036471] usb 7-1.1: Product: Apple Mobile Device (Recovery Mode)
+[ 7243.036471] usb 7-1.1: Manufacturer: Apple Inc.
+[ 7243.036472] usb 7-1.1: SerialNumber: [REDACTED_SERIAL]
+[ 7370.721504] apple-mfi-fastcharge 7-1.1: USB disconnect, device number 11
+[ 7380.411330] usb 7-1.1: new high-speed USB device number 12 using xhci_hcd
+[ 7380.515640] usb 7-1.1: New USB device found, idVendor=05ac, idProduct=1281, bcdDevice= 0.00
+[ 7380.515646] usb 7-1.1: New USB device strings: Mfr=2, Product=3, SerialNumber=4
+[ 7380.515647] usb 7-1.1: Product: Apple Mobile Device (Recovery Mode)
+[ 7380.515648] usb 7-1.1: Manufacturer: Apple Inc.
+[ 7380.515648] usb 7-1.1: SerialNumber: [REDACTED_SERIAL]
+[ 7409.121554] apple-mfi-fastcharge 7-1.1: USB disconnect, device number 12
+[ 7419.065954] usb 7-1.1: new high-speed USB device number 13 using xhci_hcd
+[ 7419.162183] usb 7-1.1: New USB device found, idVendor=05ac, idProduct=1281, bcdDevice= 0.00
+[ 7419.162189] usb 7-1.1: New USB device strings: Mfr=2, Product=3, SerialNumber=4
+[ 7419.162190] usb 7-1.1: Product: Apple Mobile Device (Recovery Mode)
+[ 7419.162192] usb 7-1.1: Manufacturer: Apple Inc.
+[ 7419.162192] usb 7-1.1: SerialNumber: [REDACTED_SERIAL]
+[ 7469.793632] apple-mfi-fastcharge 7-1.1: USB disconnect, device number 13
+[ 7486.643563] usb 7-1.1: new high-speed USB device number 14 using xhci_hcd
+[ 7486.739774] usb 7-1.1: New USB device found, idVendor=05ac, idProduct=1281, bcdDevice= 0.00
+[ 7486.739778] usb 7-1.1: New USB device strings: Mfr=2, Product=3, SerialNumber=4
+[ 7486.739780] usb 7-1.1: Product: Apple Mobile Device (Recovery Mode)
+[ 7486.739781] usb 7-1.1: Manufacturer: Apple Inc.
+[ 7486.739781] usb 7-1.1: SerialNumber: [REDACTED_SERIAL]
+[ 7494.113663] apple-mfi-fastcharge 7-1.1: USB disconnect, device number 14
+[ 7504.302923] usb 7-1.1: new high-speed USB device number 15 using xhci_hcd
+[ 7504.395172] usb 7-1.1: New USB device found, idVendor=05ac, idProduct=1281, bcdDevice= 0.00
+[ 7504.395177] usb 7-1.1: New USB device strings: Mfr=2, Product=3, SerialNumber=4
+[ 7504.395178] usb 7-1.1: Product: Apple Mobile Device (Recovery Mode)
+[ 7504.395179] usb 7-1.1: Manufacturer: Apple Inc.
+[ 7504.395179] usb 7-1.1: SerialNumber: [REDACTED_SERIAL]
+[ 7511.009684] apple-mfi-fastcharge 7-1.1: USB disconnect, device number 15
+[ 7527.866078] usb 7-1.1: new high-speed USB device number 16 using xhci_hcd
+[ 7527.963200] usb 7-1.1: New USB device found, idVendor=05ac, idProduct=1281, bcdDevice= 0.00
+[ 7527.963205] usb 7-1.1: New USB device strings: Mfr=2, Product=3, SerialNumber=4
+[ 7527.963206] usb 7-1.1: Product: Apple Mobile Device (Recovery Mode)
+[ 7527.963207] usb 7-1.1: Manufacturer: Apple Inc.
+[ 7527.963208] usb 7-1.1: SerialNumber: [REDACTED_SERIAL]
+[ 7550.433735] apple-mfi-fastcharge 7-1.1: USB disconnect, device number 16
+[ 7678.132769] usb 7-1.1: new high-speed USB device number 17 using xhci_hcd
+[ 7678.233018] usb 7-1.1: New USB device found, idVendor=05ac, idProduct=1281, bcdDevice= 0.00
+[ 7678.233022] usb 7-1.1: New USB device strings: Mfr=2, Product=3, SerialNumber=4
+[ 7678.233023] usb 7-1.1: Product: Apple Mobile Device (Recovery Mode)
+[ 7678.233024] usb 7-1.1: Manufacturer: Apple Inc.
+[ 7678.233025] usb 7-1.1: SerialNumber: [REDACTED_SERIAL]
+[ 7700.961928] apple-mfi-fastcharge 7-1.1: USB disconnect, device number 17
+[ 7711.143604] usb 7-1.1: new high-speed USB device number 18 using xhci_hcd
+[ 7711.243814] usb 7-1.1: New USB device found, idVendor=05ac, idProduct=1281, bcdDevice= 0.00
+[ 7711.243818] usb 7-1.1: New USB device strings: Mfr=2, Product=3, SerialNumber=4
+[ 7711.243819] usb 7-1.1: Product: Apple Mobile Device (Recovery Mode)
+[ 7711.243820] usb 7-1.1: Manufacturer: Apple Inc.
+[ 7711.243820] usb 7-1.1: SerialNumber: [REDACTED_SERIAL]
+[ 7793.122048] apple-mfi-fastcharge 7-1.1: USB disconnect, device number 18
+[ 7803.324358] usb 7-1.1: new high-speed USB device number 19 using xhci_hcd
+[ 7803.428553] usb 7-1.1: New USB device found, idVendor=05ac, idProduct=1281, bcdDevice= 0.00
+[ 7803.428556] usb 7-1.1: New USB device strings: Mfr=2, Product=3, SerialNumber=4
+[ 7803.428557] usb 7-1.1: Product: Apple Mobile Device (Recovery Mode)
+[ 7803.428558] usb 7-1.1: Manufacturer: Apple Inc.
+[ 7803.428559] usb 7-1.1: SerialNumber: [REDACTED_SERIAL]
+[ 7818.722079] apple-mfi-fastcharge 7-1.1: USB disconnect, device number 19
+[ 7829.159453] usb 7-1.1: new high-speed USB device number 20 using xhci_hcd
+[ 7829.255718] usb 7-1.1: New USB device found, idVendor=05ac, idProduct=1281, bcdDevice= 0.00
+[ 7829.255721] usb 7-1.1: New USB device strings: Mfr=2, Product=3, SerialNumber=4
+[ 7829.255722] usb 7-1.1: Product: Apple Mobile Device (Recovery Mode)
+[ 7829.255723] usb 7-1.1: Manufacturer: Apple Inc.
+[ 7829.255723] usb 7-1.1: SerialNumber: [REDACTED_SERIAL]
+[ 7951.074249] apple-mfi-fastcharge 7-1.1: USB disconnect, device number 20
+[ 7954.599067] usb 7-1.1: new high-speed USB device number 21 using xhci_hcd
+[ 7954.691373] usb 7-1.1: New USB device found, idVendor=05ac, idProduct=1281, bcdDevice= 0.00
+[ 7954.691377] usb 7-1.1: New USB device strings: Mfr=2, Product=3, SerialNumber=4
+[ 7954.691378] usb 7-1.1: Product: Apple Mobile Device (Recovery Mode)
+[ 7954.691379] usb 7-1.1: Manufacturer: Apple Inc.
+[ 7954.691380] usb 7-1.1: SerialNumber: [REDACTED_SERIAL]
+[ 7962.594264] apple-mfi-fastcharge 7-1.1: USB disconnect, device number 21
+[ 7968.438563] usb 7-1.1: new high-speed USB device number 22 using xhci_hcd
+[ 7968.538765] usb 7-1.1: New USB device found, idVendor=05ac, idProduct=1281, bcdDevice= 0.00
+[ 7968.538769] usb 7-1.1: New USB device strings: Mfr=2, Product=3, SerialNumber=4
+[ 7968.538771] usb 7-1.1: Product: Apple Mobile Device (Recovery Mode)
+[ 7968.538772] usb 7-1.1: Manufacturer: Apple Inc.
+[ 7968.538772] usb 7-1.1: SerialNumber: [REDACTED_SERIAL]
+[ 7999.970316] apple-mfi-fastcharge 7-1.1: USB disconnect, device number 22
+[ 8010.161123] usb 7-1.1: new high-speed USB device number 23 using xhci_hcd
+[ 8010.261321] usb 7-1.1: New USB device found, idVendor=05ac, idProduct=1281, bcdDevice= 0.00
+[ 8010.261326] usb 7-1.1: New USB device strings: Mfr=2, Product=3, SerialNumber=4
+[ 8010.261328] usb 7-1.1: Product: Apple Mobile Device (Recovery Mode)
+[ 8010.261329] usb 7-1.1: Manufacturer: Apple Inc.
+[ 8010.261329] usb 7-1.1: SerialNumber: [REDACTED_SERIAL]
+[ 8133.602484] apple-mfi-fastcharge 7-1.1: USB disconnect, device number 23
+[ 8138.164635] usb 7-1.1: new high-speed USB device number 24 using xhci_hcd
+[ 8138.268861] usb 7-1.1: New USB device found, idVendor=05ac, idProduct=1281, bcdDevice= 0.00
+[ 8138.268865] usb 7-1.1: New USB device strings: Mfr=2, Product=3, SerialNumber=4
+[ 8138.268866] usb 7-1.1: Product: Apple Mobile Device (Recovery Mode)
+[ 8138.268867] usb 7-1.1: Manufacturer: Apple Inc.
+[ 8138.268867] usb 7-1.1: SerialNumber: [REDACTED_SERIAL]
+[ 8204.258574] apple-mfi-fastcharge 7-1.1: USB disconnect, device number 24
+[ 8214.453983] usb 7-1.1: new high-speed USB device number 25 using xhci_hcd
+[ 8214.558213] usb 7-1.1: New USB device found, idVendor=05ac, idProduct=1281, bcdDevice= 0.00
+[ 8214.558218] usb 7-1.1: New USB device strings: Mfr=2, Product=3, SerialNumber=4
+[ 8214.558219] usb 7-1.1: Product: Apple Mobile Device (Recovery Mode)
+[ 8214.558220] usb 7-1.1: Manufacturer: Apple Inc.
+[ 8214.558221] usb 7-1.1: SerialNumber: [REDACTED_SERIAL]
+[ 8323.298726] apple-mfi-fastcharge 7-1.1: USB disconnect, device number 25
+[ 8333.497834] usb 7-1.1: new high-speed USB device number 26 using xhci_hcd
+[ 8333.602110] usb 7-1.1: New USB device found, idVendor=05ac, idProduct=1281, bcdDevice= 0.00
+[ 8333.602114] usb 7-1.1: New USB device strings: Mfr=2, Product=3, SerialNumber=4
+[ 8333.602115] usb 7-1.1: Product: Apple Mobile Device (Recovery Mode)
+[ 8333.602116] usb 7-1.1: Manufacturer: Apple Inc.
+[ 8333.602116] usb 7-1.1: SerialNumber: [REDACTED_SERIAL]
+[ 8471.266916] apple-mfi-fastcharge 7-1.1: USB disconnect, device number 26
+[ 8658.362544] usb 7-1.1: new high-speed USB device number 27 using xhci_hcd
+[ 8658.468900] usb 7-1.1: New USB device found, idVendor=05ac, idProduct=12a8, bcdDevice=17.01
+[ 8658.468905] usb 7-1.1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 8658.468906] usb 7-1.1: Product: iPhone
+[ 8658.468907] usb 7-1.1: Manufacturer: Apple Inc.
+[ 8658.468908] usb 7-1.1: SerialNumber: [REDACTED_SERIAL]
+[ 8658.662773] ipheth 7-1.1:4.2: ipheth_enable_ncm: usb_control_msg: 0
+[ 8658.662906] ipheth 7-1.1:4.2: Apple iPhone USB Ethernet device attached
+[ 8658.664277] ipheth 7-1.1:4.2 enxf6a310815bba: renamed from eth0
+[ 8677.859432] apple-mfi-fastcharge 7-1.1: USB disconnect, device number 27
+[ 8677.905876] ipheth 7-1.1:4.2: Apple iPhone USB Ethernet now disconnected
+[ 8751.539308] usb 7-1.1: new low-speed USB device number 28 using xhci_hcd
+[ 8751.662763] usb 7-1.1: New USB device found, idVendor=05ac, idProduct=f014, bcdDevice= 0.00
+[ 8751.662769] usb 7-1.1: New USB device strings: Mfr=2, Product=3, SerialNumber=4
+[ 8751.662771] usb 7-1.1: Product: Apple Device (Port DFU Mode)
+[ 8751.662772] usb 7-1.1: Manufacturer: Apple Inc.
+[ 8751.662773] usb 7-1.1: SerialNumber: [REDACTED_SERIAL]
+[ 9380.580083] usb 7-1.1: USB disconnect, device number 28
+[ 9382.328856] usb 7-1.1: new low-speed USB device number 29 using xhci_hcd
+[ 9382.456524] usb 7-1.1: New USB device found, idVendor=05ac, idProduct=f014, bcdDevice= 0.00
+[ 9382.456529] usb 7-1.1: New USB device strings: Mfr=2, Product=3, SerialNumber=4
+[ 9382.456530] usb 7-1.1: Product: Apple Device (Port DFU Mode)
+[ 9382.456531] usb 7-1.1: Manufacturer: Apple Inc.
+[ 9382.456531] usb 7-1.1: SerialNumber: [REDACTED_SERIAL]
+[10510.053531] usb 7-1.1: USB disconnect, device number 29
+[10513.323933] usb 7-1.1: new low-speed USB device number 30 using xhci_hcd
+[10513.443981] usb 7-1.1: New USB device found, idVendor=05ac, idProduct=f014, bcdDevice= 0.00
+[10513.443986] usb 7-1.1: New USB device strings: Mfr=2, Product=3, SerialNumber=4
+[10513.443988] usb 7-1.1: Product: Apple Device (Port DFU Mode)
+[10513.443989] usb 7-1.1: Manufacturer: Apple Inc.
+[10513.443990] usb 7-1.1: SerialNumber: [REDACTED_SERIAL]
+[11022.054187] usb 7-1.1: USB disconnect, device number 30
+[11024.810920] usb 7-1.1: new low-speed USB device number 31 using xhci_hcd
+[11024.934632] usb 7-1.1: New USB device found, idVendor=05ac, idProduct=f014, bcdDevice= 0.00
+[11024.934637] usb 7-1.1: New USB device strings: Mfr=2, Product=3, SerialNumber=4
+[11024.934638] usb 7-1.1: Product: Apple Device (Port DFU Mode)
+[11024.934639] usb 7-1.1: Manufacturer: Apple Inc.
+[11024.934640] usb 7-1.1: SerialNumber: [REDACTED_SERIAL]
+[11272.422517] usb 7-1.1: USB disconnect, device number 31
+[11274.674667] usb 7-1.1: new low-speed USB device number 32 using xhci_hcd
+[11274.794961] usb 7-1.1: New USB device found, idVendor=05ac, idProduct=f014, bcdDevice= 0.00
+[11274.794967] usb 7-1.1: New USB device strings: Mfr=2, Product=3, SerialNumber=4
+[11274.794969] usb 7-1.1: Product: Apple Device (Port DFU Mode)
+[11274.794970] usb 7-1.1: Manufacturer: Apple Inc.
+[11274.794971] usb 7-1.1: SerialNumber: [REDACTED_SERIAL]
+[11280.870539] usb 7-1.1: USB disconnect, device number 32
+[11283.118391] usb 7-1.1: new low-speed USB device number 33 using xhci_hcd
+[11283.237970] usb 7-1.1: New USB device found, idVendor=05ac, idProduct=f014, bcdDevice= 0.00
+[11283.237974] usb 7-1.1: New USB device strings: Mfr=2, Product=3, SerialNumber=4
+[11283.237976] usb 7-1.1: Product: Apple Device (Port DFU Mode)
+[11283.237977] usb 7-1.1: Manufacturer: Apple Inc.
+[11283.237977] usb 7-1.1: SerialNumber: [REDACTED_SERIAL]
+[11381.222647] usb 7-1.1: USB disconnect, device number 33
+[11383.995000] usb 7-1.1: new low-speed USB device number 34 using xhci_hcd
+[11384.123090] usb 7-1.1: New USB device found, idVendor=05ac, idProduct=f014, bcdDevice= 0.00
+[11384.123094] usb 7-1.1: New USB device strings: Mfr=2, Product=3, SerialNumber=4
+[11384.123096] usb 7-1.1: Product: Apple Device (Port DFU Mode)
+[11384.123097] usb 7-1.1: Manufacturer: Apple Inc.
+[11384.123097] usb 7-1.1: SerialNumber: [REDACTED_SERIAL]
+[11398.374666] usb 7-1.1: USB disconnect, device number 34
+[11402.178389] usb 7-1.1: new low-speed USB device number 35 using xhci_hcd
+[11402.306114] usb 7-1.1: New USB device found, idVendor=05ac, idProduct=f014, bcdDevice= 0.00
+[11402.306118] usb 7-1.1: New USB device strings: Mfr=2, Product=3, SerialNumber=4
+[11402.306119] usb 7-1.1: Product: Apple Device (Port DFU Mode)
+[11402.306120] usb 7-1.1: Manufacturer: Apple Inc.
+[11402.306121] usb 7-1.1: SerialNumber: [REDACTED_SERIAL]
+[11630.822967] usb 7-1.1: USB disconnect, device number 35
+[11632.570707] usb 7-1.1: new low-speed USB device number 36 using xhci_hcd
+[11632.690411] usb 7-1.1: New USB device found, idVendor=05ac, idProduct=f014, bcdDevice= 0.00
+[11632.690415] usb 7-1.1: New USB device strings: Mfr=2, Product=3, SerialNumber=4
+[11632.690416] usb 7-1.1: Product: Apple Device (Port DFU Mode)
+[11632.690417] usb 7-1.1: Manufacturer: Apple Inc.
+[11632.690418] usb 7-1.1: SerialNumber: [REDACTED_SERIAL]
+[11782.119161] usb 7-1.1: USB disconnect, device number 36
+[11783.853672] usb 7-1.1: new low-speed USB device number 37 using xhci_hcd
+[11783.981604] usb 7-1.1: New USB device found, idVendor=05ac, idProduct=f014, bcdDevice= 0.00
+[11783.981608] usb 7-1.1: New USB device strings: Mfr=2, Product=3, SerialNumber=4
+[11783.981609] usb 7-1.1: Product: Apple Device (Port DFU Mode)
+[11783.981610] usb 7-1.1: Manufacturer: Apple Inc.
+[11783.981611] usb 7-1.1: SerialNumber: [REDACTED_SERIAL]
+[11787.751182] usb 7-1.1: USB disconnect, device number 37

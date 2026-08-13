@@ -1,0 +1,768 @@
+Frame 6332: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface usbmon7, id 0
+    Section number: 1
+    Interface id: 0 (usbmon7)
+        Interface name: usbmon7
+    Encapsulation type: USB packets with Linux header and padding (115)
+    Arrival Time: Aug 12, 2026 23:19:22.590705000 -05
+    UTC Arrival Time: Aug 13, 2026 04:19:22.590705000 UTC
+    Epoch Arrival Time: 1786594762.590705000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 0.000942000 seconds]
+    [Time delta from previous displayed frame: 0.000942000 seconds]
+    [Time since reference or first frame: 9.592657000 seconds]
+    Frame Number: 6332
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbdfu]
+USB URB
+    [Source: 7.30.0]
+    [Destination: host]
+    URB id: URB_ID_002
+    URB type: URB_COMPLETE ('C')
+    URB transfer type: URB_CONTROL (0x02)
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    Device: 30
+    URB bus id: 7
+    Device setup request: not relevant ('-')
+    Data: present ('\0')
+    URB sec: 1786594762
+    URB usec: 590705
+    URB status: Success (0)
+    URB length [bytes]: 27
+    Data length [bytes]: 27
+    [Request in: 6329]
+    [Time from request: 0.002999000 seconds]
+    Unused Setup Header
+    Interval: 0
+    Start frame: 0
+    Copy of Transfer Flags: 0x00000200, Dir IN
+        .... .... .... .... .... .... .... ...0 = Short not OK: False
+        .... .... .... .... .... .... .... ..0. = ISO ASAP: False
+        .... .... .... .... .... .... .... .0.. = No transfer DMA map: False
+        .... .... .... .... .... .... ..0. .... = No FSBR: False
+        .... .... .... .... .... .... .0.. .... = Zero Packet: False
+        .... .... .... .... .... .... 0... .... = No Interrupt: False
+        .... .... .... .... .... ...0 .... .... = Free Buffer: False
+        .... .... .... .... .... ..1. .... .... = Dir IN: True
+        .... .... .... ...0 .... .... .... .... = DMA Map Single: False
+        .... .... .... ..0. .... .... .... .... = DMA Map Page: False
+        .... .... .... .0.. .... .... .... .... = DMA Map SG: False
+        .... .... .... 0... .... .... .... .... = Map Local: False
+        .... .... ...0 .... .... .... .... .... = Setup Map Single: False
+        .... .... ..0. .... .... .... .... .... = Setup Map Local: False
+        .... .... .0.. .... .... .... .... .... = DMA S-G Combined: False
+        .... .... 0... .... .... .... .... .... = Aligned Temp Buffer: False
+    Number of ISO descriptors: 0
+CONFIGURATION DESCRIPTOR
+    bLength: 9
+    bDescriptorType: 0x02 (CONFIGURATION)
+    wTotalLength: 27
+    bNumInterfaces: 1
+    bConfigurationValue: 1
+    iConfiguration: 0
+    Configuration bmAttributes: 0x80  NOT SELF-POWERED  NO REMOTE-WAKEUP
+        1... .... = Must be 1: Must be 1 for USB 1.1 and higher
+        .0.. .... = Self-Powered: This device is powered from the USB bus
+        ..0. .... = Remote Wakeup: This device does NOT support remote wakeup
+    bMaxPower: 50  (100mA)
+INTERFACE DESCRIPTOR (0.0): class Application Specific
+    bLength: 9
+    bDescriptorType: 0x04 (INTERFACE)
+    bInterfaceNumber: 0
+    bAlternateSetting: 0
+    bNumEndpoints: 0
+    bInterfaceClass: Application Specific (0xfe)
+    bInterfaceSubClass: Device Firmware Upgrade (0x01)
+    bInterfaceProtocol: DFU mode protocol (0x02)
+    iInterface: 0
+DFU Descriptor: DFU FUNCTIONAL
+    bLength: 9
+    bDescriptorType: 0x21 (DFU FUNCTIONAL)
+    0000 .... = Reserved: 0x0
+    .... 0... = Will Detach: False
+    .... .0.. = Manifestation Tolerant: False
+    .... ..0. = Can Upload: False
+    .... ...1 = Can Download: True
+    wDetachTimeOut: 511
+    wTransferSize: 64
+    bcdDFUVersion: 0x0110
+
+Frame 6333: 64 bytes on wire (512 bits), 64 bytes captured (512 bits) on interface usbmon7, id 0
+    Section number: 1
+    Interface id: 0 (usbmon7)
+        Interface name: usbmon7
+    Encapsulation type: USB packets with Linux header and padding (115)
+    Arrival Time: Aug 12, 2026 23:19:22.590709000 -05
+    UTC Arrival Time: Aug 13, 2026 04:19:22.590709000 UTC
+    Epoch Arrival Time: 1786594762.590709000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 0.000004000 seconds]
+    [Time delta from previous displayed frame: 0.000004000 seconds]
+    [Time since reference or first frame: 9.592661000 seconds]
+    Frame Number: 6333
+    Frame Length: 64 bytes (512 bits)
+    Capture Length: 64 bytes (512 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 7.30.0]
+    URB id: URB_ID_002
+    URB type: URB_SUBMIT ('S')
+    URB transfer type: URB_CONTROL (0x02)
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    Device: 30
+    URB bus id: 7
+    Device setup request: relevant ('\0')
+    Data: not present ('<')
+    URB sec: 1786594762
+    URB usec: 590709
+    URB status: Operation now in progress (-EINPROGRESS) (-115)
+    URB length [bytes]: 255
+    Data length [bytes]: 0
+    Interval: 0
+    Start frame: 0
+    Copy of Transfer Flags: 0x00000200, Dir IN
+        .... .... .... .... .... .... .... ...0 = Short not OK: False
+        .... .... .... .... .... .... .... ..0. = ISO ASAP: False
+        .... .... .... .... .... .... .... .0.. = No transfer DMA map: False
+        .... .... .... .... .... .... ..0. .... = No FSBR: False
+        .... .... .... .... .... .... .0.. .... = Zero Packet: False
+        .... .... .... .... .... .... 0... .... = No Interrupt: False
+        .... .... .... .... .... ...0 .... .... = Free Buffer: False
+        .... .... .... .... .... ..1. .... .... = Dir IN: True
+        .... .... .... ...0 .... .... .... .... = DMA Map Single: False
+        .... .... .... ..0. .... .... .... .... = DMA Map Page: False
+        .... .... .... .0.. .... .... .... .... = DMA Map SG: False
+        .... .... .... 0... .... .... .... .... = Map Local: False
+        .... .... ...0 .... .... .... .... .... = Setup Map Single: False
+        .... .... ..0. .... .... .... .... .... = Setup Map Local: False
+        .... .... .0.. .... .... .... .... .... = DMA S-G Combined: False
+        .... .... 0... .... .... .... .... .... = Aligned Temp Buffer: False
+    Number of ISO descriptors: 0
+Setup Data
+    bmRequestType: 0x80
+        1... .... = Direction: Device-to-host
+        .00. .... = Type: Standard (0x0)
+        ...0 0000 = Recipient: Device (0x00)
+    bRequest: GET DESCRIPTOR (6)
+    Descriptor Index: 0x00
+    bDescriptorType: STRING (0x03)
+    Language Id: no language specified (0x0000)
+    wLength: 255
+
+Frame 6334: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface usbmon7, id 0
+    Section number: 1
+    Interface id: 0 (usbmon7)
+        Interface name: usbmon7
+    Encapsulation type: USB packets with Linux header and padding (115)
+    Arrival Time: Aug 12, 2026 23:19:22.593706000 -05
+    UTC Arrival Time: Aug 13, 2026 04:19:22.593706000 UTC
+    Epoch Arrival Time: 1786594762.593706000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 0.002997000 seconds]
+    [Time delta from previous displayed frame: 0.002997000 seconds]
+    [Time since reference or first frame: 9.595658000 seconds]
+    Frame Number: 6334
+    Frame Length: 68 bytes (544 bits)
+    Capture Length: 68 bytes (544 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: 7.30.0]
+    [Destination: host]
+    URB id: URB_ID_002
+    URB type: URB_COMPLETE ('C')
+    URB transfer type: URB_CONTROL (0x02)
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    Device: 30
+    URB bus id: 7
+    Device setup request: not relevant ('-')
+    Data: present ('\0')
+    URB sec: 1786594762
+    URB usec: 593706
+    URB status: Success (0)
+    URB length [bytes]: 4
+    Data length [bytes]: 4
+    [Request in: 6333]
+    [Time from request: 0.002997000 seconds]
+    Unused Setup Header
+    Interval: 0
+    Start frame: 0
+    Copy of Transfer Flags: 0x00000200, Dir IN
+        .... .... .... .... .... .... .... ...0 = Short not OK: False
+        .... .... .... .... .... .... .... ..0. = ISO ASAP: False
+        .... .... .... .... .... .... .... .0.. = No transfer DMA map: False
+        .... .... .... .... .... .... ..0. .... = No FSBR: False
+        .... .... .... .... .... .... .0.. .... = Zero Packet: False
+        .... .... .... .... .... .... 0... .... = No Interrupt: False
+        .... .... .... .... .... ...0 .... .... = Free Buffer: False
+        .... .... .... .... .... ..1. .... .... = Dir IN: True
+        .... .... .... ...0 .... .... .... .... = DMA Map Single: False
+        .... .... .... ..0. .... .... .... .... = DMA Map Page: False
+        .... .... .... .0.. .... .... .... .... = DMA Map SG: False
+        .... .... .... 0... .... .... .... .... = Map Local: False
+        .... .... ...0 .... .... .... .... .... = Setup Map Single: False
+        .... .... ..0. .... .... .... .... .... = Setup Map Local: False
+        .... .... .0.. .... .... .... .... .... = DMA S-G Combined: False
+        .... .... 0... .... .... .... .... .... = Aligned Temp Buffer: False
+    Number of ISO descriptors: 0
+STRING DESCRIPTOR
+    bLength: 4
+    bDescriptorType: 0x03 (STRING)
+    wLANGID: English (United States) (0x0409)
+
+Frame 6335: 64 bytes on wire (512 bits), 64 bytes captured (512 bits) on interface usbmon7, id 0
+    Section number: 1
+    Interface id: 0 (usbmon7)
+        Interface name: usbmon7
+    Encapsulation type: USB packets with Linux header and padding (115)
+    Arrival Time: Aug 12, 2026 23:19:22.593710000 -05
+    UTC Arrival Time: Aug 13, 2026 04:19:22.593710000 UTC
+    Epoch Arrival Time: 1786594762.593710000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 0.000004000 seconds]
+    [Time delta from previous displayed frame: 0.000004000 seconds]
+    [Time since reference or first frame: 9.595662000 seconds]
+    Frame Number: 6335
+    Frame Length: 64 bytes (512 bits)
+    Capture Length: 64 bytes (512 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 7.30.0]
+    URB id: URB_ID_002
+    URB type: URB_SUBMIT ('S')
+    URB transfer type: URB_CONTROL (0x02)
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    Device: 30
+    URB bus id: 7
+    Device setup request: relevant ('\0')
+    Data: not present ('<')
+    URB sec: 1786594762
+    URB usec: 593710
+    URB status: Operation now in progress (-EINPROGRESS) (-115)
+    URB length [bytes]: 255
+    Data length [bytes]: 0
+    Interval: 0
+    Start frame: 0
+    Copy of Transfer Flags: 0x00000200, Dir IN
+        .... .... .... .... .... .... .... ...0 = Short not OK: False
+        .... .... .... .... .... .... .... ..0. = ISO ASAP: False
+        .... .... .... .... .... .... .... .0.. = No transfer DMA map: False
+        .... .... .... .... .... .... ..0. .... = No FSBR: False
+        .... .... .... .... .... .... .0.. .... = Zero Packet: False
+        .... .... .... .... .... .... 0... .... = No Interrupt: False
+        .... .... .... .... .... ...0 .... .... = Free Buffer: False
+        .... .... .... .... .... ..1. .... .... = Dir IN: True
+        .... .... .... ...0 .... .... .... .... = DMA Map Single: False
+        .... .... .... ..0. .... .... .... .... = DMA Map Page: False
+        .... .... .... .0.. .... .... .... .... = DMA Map SG: False
+        .... .... .... 0... .... .... .... .... = Map Local: False
+        .... .... ...0 .... .... .... .... .... = Setup Map Single: False
+        .... .... ..0. .... .... .... .... .... = Setup Map Local: False
+        .... .... .0.. .... .... .... .... .... = DMA S-G Combined: False
+        .... .... 0... .... .... .... .... .... = Aligned Temp Buffer: False
+    Number of ISO descriptors: 0
+Setup Data
+    bmRequestType: 0x80
+        1... .... = Direction: Device-to-host
+        .00. .... = Type: Standard (0x0)
+        ...0 0000 = Recipient: Device (0x00)
+    bRequest: GET DESCRIPTOR (6)
+    Descriptor Index: 0x03
+    bDescriptorType: STRING (0x03)
+    Language Id: English (United States) (0x0409)
+    wLength: 255
+
+Frame 6336: 144 bytes on wire (1152 bits), 144 bytes captured (1152 bits) on interface usbmon7, id 0
+    Section number: 1
+    Interface id: 0 (usbmon7)
+        Interface name: usbmon7
+    Encapsulation type: USB packets with Linux header and padding (115)
+    Arrival Time: Aug 12, 2026 23:19:22.594758000 -05
+    UTC Arrival Time: Aug 13, 2026 04:19:22.594758000 UTC
+    Epoch Arrival Time: 1786594762.594758000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 0.001048000 seconds]
+    [Time delta from previous displayed frame: 0.001048000 seconds]
+    [Time since reference or first frame: 9.596710000 seconds]
+    Frame Number: 6336
+    Frame Length: 144 bytes (1152 bits)
+    Capture Length: 144 bytes (1152 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: 7.5.3]
+    [Destination: host]
+    URB id: URB_ID_003
+    URB type: URB_COMPLETE ('C')
+    URB transfer type: URB_ISOCHRONOUS (0x00)
+    Endpoint: 0x03, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0011 = Endpoint number: 3
+    Device: 5
+    URB bus id: 7
+    Device setup request: not relevant ('-')
+    Data: not present ('>')
+    URB sec: 1786594762
+    URB usec: 594758
+    URB status: Success (0)
+    URB length [bytes]: 1440
+    Data length [bytes]: 80
+    [Request in: 6322]
+    [Time from request: 0.015997000 seconds]
+    [bInterfaceClass: Audio (0x01)]
+    ISO error count: 0
+    Number of ISO descriptors: 5
+    Interval: 1
+    Start frame: 1149224
+    Copy of Transfer Flags: 0x00000004, No transfer DMA map
+        .... .... .... .... .... .... .... ...0 = Short not OK: False
+        .... .... .... .... .... .... .... ..0. = ISO ASAP: False
+        .... .... .... .... .... .... .... .1.. = No transfer DMA map: True
+        .... .... .... .... .... .... ..0. .... = No FSBR: False
+        .... .... .... .... .... .... .0.. .... = Zero Packet: False
+        .... .... .... .... .... .... 0... .... = No Interrupt: False
+        .... .... .... .... .... ...0 .... .... = Free Buffer: False
+        .... .... .... .... .... ..0. .... .... = Dir IN: False
+        .... .... .... ...0 .... .... .... .... = DMA Map Single: False
+        .... .... .... ..0. .... .... .... .... = DMA Map Page: False
+        .... .... .... .0.. .... .... .... .... = DMA Map SG: False
+        .... .... .... 0... .... .... .... .... = Map Local: False
+        .... .... ...0 .... .... .... .... .... = Setup Map Single: False
+        .... .... ..0. .... .... .... .... .... = Setup Map Local: False
+        .... .... .0.. .... .... .... .... .... = DMA S-G Combined: False
+        .... .... 0... .... .... .... .... .... = Aligned Temp Buffer: False
+    Number of ISO descriptors: 5
+    USB isodesc 0 [Success] (288 bytes)
+        Status: Success (0)
+        Offset [bytes]: 0
+        Length [bytes]: 288
+        Padding: 0x00000000
+    USB isodesc 1 [Success] (288 bytes)
+        Status: Success (0)
+        Offset [bytes]: 288
+        Length [bytes]: 288
+        Padding: 0x00000000
+    USB isodesc 2 [Success] (288 bytes)
+        Status: Success (0)
+        Offset [bytes]: 576
+        Length [bytes]: 288
+        Padding: 0x00000000
+    USB isodesc 3 [Success] (288 bytes)
+        Status: Success (0)
+        Offset [bytes]: 864
+        Length [bytes]: 288
+        Padding: 0x00000000
+    USB isodesc 4 [Success] (288 bytes)
+        Status: Success (0)
+        Offset [bytes]: 1152
+        Length [bytes]: 288
+        Padding: 0x00000000
+
+Frame 6337: 1504 bytes on wire (12032 bits), 1584 bytes captured (12672 bits) on interface usbmon7, id 0
+    Section number: 1
+    Interface id: 0 (usbmon7)
+        Interface name: usbmon7
+    Encapsulation type: USB packets with Linux header and padding (115)
+    Arrival Time: Aug 12, 2026 23:19:22.594761000 -05
+    UTC Arrival Time: Aug 13, 2026 04:19:22.594761000 UTC
+    Epoch Arrival Time: 1786594762.594761000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 0.000003000 seconds]
+    [Time delta from previous displayed frame: 0.000003000 seconds]
+    [Time since reference or first frame: 9.596713000 seconds]
+    Frame Number: 6337
+    Frame Length: 1504 bytes (12032 bits)
+        [Expert Info (Error/Malformed): Frame length is less than captured length]
+            [Frame length is less than captured length]
+            [Severity level: Error]
+            [Group: Malformed]
+    Capture Length: 1584 bytes (12672 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 7.5.3]
+    URB id: URB_ID_003
+    URB type: URB_SUBMIT ('S')
+    URB transfer type: URB_ISOCHRONOUS (0x00)
+    Endpoint: 0x03, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0011 = Endpoint number: 3
+    Device: 5
+    URB bus id: 7
+    Device setup request: not relevant ('-')
+    Data: present ('\0')
+    URB sec: 1786594762
+    URB usec: 594761
+    URB status: Operation now in progress (-EINPROGRESS) (-115)
+    URB length [bytes]: 1440
+    Data length [bytes]: 1520
+    [bInterfaceClass: Audio (0x01)]
+    ISO error count: 0
+    Number of ISO descriptors: 5
+    Interval: 1
+    Start frame: 1149224
+    Copy of Transfer Flags: 0x00000004, No transfer DMA map
+        .... .... .... .... .... .... .... ...0 = Short not OK: False
+        .... .... .... .... .... .... .... ..0. = ISO ASAP: False
+        .... .... .... .... .... .... .... .1.. = No transfer DMA map: True
+        .... .... .... .... .... .... ..0. .... = No FSBR: False
+        .... .... .... .... .... .... .0.. .... = Zero Packet: False
+        .... .... .... .... .... .... 0... .... = No Interrupt: False
+        .... .... .... .... .... ...0 .... .... = Free Buffer: False
+        .... .... .... .... .... ..0. .... .... = Dir IN: False
+        .... .... .... ...0 .... .... .... .... = DMA Map Single: False
+        .... .... .... ..0. .... .... .... .... = DMA Map Page: False
+        .... .... .... .0.. .... .... .... .... = DMA Map SG: False
+        .... .... .... 0... .... .... .... .... = Map Local: False
+        .... .... ...0 .... .... .... .... .... = Setup Map Single: False
+        .... .... ..0. .... .... .... .... .... = Setup Map Local: False
+        .... .... .0.. .... .... .... .... .... = DMA S-G Combined: False
+        .... .... 0... .... .... .... .... .... = Aligned Temp Buffer: False
+    Number of ISO descriptors: 5
+    USB isodesc 0 [Cross-device link (-EXDEV)] (288 bytes)
+        Status: Cross-device link (-EXDEV) (-18)
+        Offset [bytes]: 0
+        Length [bytes]: 288
+        ISO Data […]: 1268fc96c4f5f111034e3efbd4ad053b39fd22010181edf8a6f9fb1b24f41f8efb5115f38588fc7b6df30468fb529df2d4d5f94f42f2b0d1fa6d9ef46abcfd6d18f8d2ebfe81e7f8f8f5fc3095f65debfab3cff4325dfb531cf6f775fc878cf8df95fbc91ef995fff882bcf7001ff68
+        Padding: 0x00000000
+    USB isodesc 1 [Cross-device link (-EXDEV)] (288 bytes)
+        Status: Cross-device link (-EXDEV) (-18)
+        Offset [bytes]: 288
+        Length [bytes]: 288
+        ISO Data […]: c0d3e0cb3de40865e484c5e76722e6a8b7e9d066e68aa2e95632e6059ae8a155e6c38be7df40e7b8f5e6eac1e7db2ce67baae63d67e4360de55c34e3174ce41367e419cee32b3fe6fb9ae21fefe5baaee1974fe42761e39bcee44d8be7c413e8be99e9e3f5e92230e6b320e73880e00
+        Padding: 0x00000000
+    USB isodesc 2 [Cross-device link (-EXDEV)] (288 bytes)
+        Status: Cross-device link (-EXDEV) (-18)
+        Offset [bytes]: 576
+        Length [bytes]: 288
+        ISO Data […]: d7c5e72a2bdc767aea6d61df1856ecbd26e1322eece2b3e0853becb59be0e724eea73ee24cc8efb2a2e3ff17ef91e9e2cbb8ed5657e11abced8a30e173f2ee3815e3ff9eef3f39e5414eeea7f9e4d9bcecd903e35792ed0382e280a7ef21f7e358cff082a1e514cdf04704e6b4a8ef7
+        Padding: 0x00000000
+    USB isodesc 3 [Cross-device link (-EXDEV)] (288 bytes)
+        Status: Cross-device link (-EXDEV) (-18)
+        Offset [bytes]: 864
+        Length [bytes]: 288
+        ISO Data […]: ca31e393fae7d41be62055ea0448e81509eed52ce7728defb607e43badeda219e29265ebd2bce23b8febe877e44016ed6a64e57ebfedd4ade432d1ec9cc5e2ccaaea1dc2e182c8e92839e3a329ecb0abe50202ef5133e62904ef4209e49821ed5092e1585eeb6f14e1bd64ea309be1b
+        Padding: 0x00000000
+    USB isodesc 4 [Cross-device link (-EXDEV)] (288 bytes)
+        Status: Cross-device link (-EXDEV) (-18)
+        Offset [bytes]: 1152
+        Length [bytes]: 288
+        ISO Data […]: 6465f51c1ff7b446fa1514fd258afabdd6fe847ff88da9fd4564f96879fe8c0cff667f03242f050df208f1a1051ac309a8180054f4059c5efbf14d0205f9fb99c201fc59fe6e1d02c461fe2f4901d291fd0d3d018f5efee58803e965ff0a22057cfefded76029153fb6df7fd6583fb1
+        Padding: 0x00000000
+
+Frame 6338: 122 bytes on wire (976 bits), 122 bytes captured (976 bits) on interface usbmon7, id 0
+    Section number: 1
+    Interface id: 0 (usbmon7)
+        Interface name: usbmon7
+    Encapsulation type: USB packets with Linux header and padding (115)
+    Arrival Time: Aug 12, 2026 23:19:22.597706000 -05
+    UTC Arrival Time: Aug 13, 2026 04:19:22.597706000 UTC
+    Epoch Arrival Time: 1786594762.597706000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 0.002945000 seconds]
+    [Time delta from previous displayed frame: 0.002945000 seconds]
+    [Time since reference or first frame: 9.599658000 seconds]
+    Frame Number: 6338
+    Frame Length: 122 bytes (976 bits)
+    Capture Length: 122 bytes (976 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: 7.30.0]
+    [Destination: host]
+    URB id: URB_ID_002
+    URB type: URB_COMPLETE ('C')
+    URB transfer type: URB_CONTROL (0x02)
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    Device: 30
+    URB bus id: 7
+    Device setup request: not relevant ('-')
+    Data: present ('\0')
+    URB sec: 1786594762
+    URB usec: 597706
+    URB status: Success (0)
+    URB length [bytes]: 58
+    Data length [bytes]: 58
+    [Request in: 6335]
+    [Time from request: 0.003996000 seconds]
+    Unused Setup Header
+    Interval: 0
+    Start frame: 0
+    Copy of Transfer Flags: 0x00000200, Dir IN
+        .... .... .... .... .... .... .... ...0 = Short not OK: False
+        .... .... .... .... .... .... .... ..0. = ISO ASAP: False
+        .... .... .... .... .... .... .... .0.. = No transfer DMA map: False
+        .... .... .... .... .... .... ..0. .... = No FSBR: False
+        .... .... .... .... .... .... .0.. .... = Zero Packet: False
+        .... .... .... .... .... .... 0... .... = No Interrupt: False
+        .... .... .... .... .... ...0 .... .... = Free Buffer: False
+        .... .... .... .... .... ..1. .... .... = Dir IN: True
+        .... .... .... ...0 .... .... .... .... = DMA Map Single: False
+        .... .... .... ..0. .... .... .... .... = DMA Map Page: False
+        .... .... .... .0.. .... .... .... .... = DMA Map SG: False
+        .... .... .... 0... .... .... .... .... = Map Local: False
+        .... .... ...0 .... .... .... .... .... = Setup Map Single: False
+        .... .... ..0. .... .... .... .... .... = Setup Map Local: False
+        .... .... .0.. .... .... .... .... .... = DMA S-G Combined: False
+        .... .... 0... .... .... .... .... .... = Aligned Temp Buffer: False
+    Number of ISO descriptors: 0
+STRING DESCRIPTOR
+    bLength: 58
+    bDescriptorType: 0x03 (STRING)
+    bString: Apple Device (Port DFU Mode)
+
+Frame 6339: 64 bytes on wire (512 bits), 64 bytes captured (512 bits) on interface usbmon7, id 0
+    Section number: 1
+    Interface id: 0 (usbmon7)
+        Interface name: usbmon7
+    Encapsulation type: USB packets with Linux header and padding (115)
+    Arrival Time: Aug 12, 2026 23:19:22.597710000 -05
+    UTC Arrival Time: Aug 13, 2026 04:19:22.597710000 UTC
+    Epoch Arrival Time: 1786594762.597710000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 0.000004000 seconds]
+    [Time delta from previous displayed frame: 0.000004000 seconds]
+    [Time since reference or first frame: 9.599662000 seconds]
+    Frame Number: 6339
+    Frame Length: 64 bytes (512 bits)
+    Capture Length: 64 bytes (512 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 7.30.0]
+    URB id: URB_ID_002
+    URB type: URB_SUBMIT ('S')
+    URB transfer type: URB_CONTROL (0x02)
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    Device: 30
+    URB bus id: 7
+    Device setup request: relevant ('\0')
+    Data: not present ('<')
+    URB sec: 1786594762
+    URB usec: 597710
+    URB status: Operation now in progress (-EINPROGRESS) (-115)
+    URB length [bytes]: 255
+    Data length [bytes]: 0
+    Interval: 0
+    Start frame: 0
+    Copy of Transfer Flags: 0x00000200, Dir IN
+        .... .... .... .... .... .... .... ...0 = Short not OK: False
+        .... .... .... .... .... .... .... ..0. = ISO ASAP: False
+        .... .... .... .... .... .... .... .0.. = No transfer DMA map: False
+        .... .... .... .... .... .... ..0. .... = No FSBR: False
+        .... .... .... .... .... .... .0.. .... = Zero Packet: False
+        .... .... .... .... .... .... 0... .... = No Interrupt: False
+        .... .... .... .... .... ...0 .... .... = Free Buffer: False
+        .... .... .... .... .... ..1. .... .... = Dir IN: True
+        .... .... .... ...0 .... .... .... .... = DMA Map Single: False
+        .... .... .... ..0. .... .... .... .... = DMA Map Page: False
+        .... .... .... .0.. .... .... .... .... = DMA Map SG: False
+        .... .... .... 0... .... .... .... .... = Map Local: False
+        .... .... ...0 .... .... .... .... .... = Setup Map Single: False
+        .... .... ..0. .... .... .... .... .... = Setup Map Local: False
+        .... .... .0.. .... .... .... .... .... = DMA S-G Combined: False
+        .... .... 0... .... .... .... .... .... = Aligned Temp Buffer: False
+    Number of ISO descriptors: 0
+Setup Data
+    bmRequestType: 0x80
+        1... .... = Direction: Device-to-host
+        .00. .... = Type: Standard (0x0)
+        ...0 0000 = Recipient: Device (0x00)
+    bRequest: GET DESCRIPTOR (6)
+    Descriptor Index: 0x02
+    bDescriptorType: STRING (0x03)
+    Language Id: English (United States) (0x0409)
+    wLength: 255
+
+
+[USER_REDACTED]@[HOST_REDACTED]:~$ sudo tshark -r /tmp/iphone-dfu.pcapng \
+  -Y 'usb.bus_id == 7 && usb.device_address == 30 && usb.transfer_type == 0' \
+  -T fields \
+  -e frame.number \
+  -e usb.setup.bRequest \
+  -e usb.setup.wValue \
+  -e usb.setup.wIndex \
+  -e usb.setup.wLength
+Running as user "root" and group "root". This could be dangerous.
+[USER_REDACTED]@[HOST_REDACTED]:~$ sudo tshark -r /tmp/iphone-dfu.pcapng \
+  -Y 'usb.bus_id == 7 && usb.device_address == 30 && usb.transfer_type == 0x02' \
+  -T fields \
+  -e frame.number \
+  -e usb.setup.bmRequestType \
+  -e usb.setup.bRequest \
+  -e usb.setup.wValue \
+  -e usb.setup.wIndex \
+  -e usb.setup.wLength
+Running as user "root" and group "root". This could be dangerous.
+tshark: Some fields aren't valid:
+        usb.setup.bmRequestType
+[USER_REDACTED]@[HOST_REDACTED]:~$ sudo tshark -r /tmp/iphone-dfu.pcapng \
+  -Y 'usb.bus_id == 7 && usb.device_address == 30 && usb.transfer_type == 0x02' \
+  -T fields \
+  -e frame.number \
+  -e usb.setup.bRequest \
+  -e usb.setup.wValue \
+  -e usb.setup.wIndex \
+  -e usb.setup.wLength
+Running as user "root" and group "root". This could be dangerous.
+6323    6                       18
+6326
+6327    6                       9
+6328
+6329    6                       27
+6332
+6333    6                       255
+6334
+6335    6                       255
+6338
+6339    6                       255
+6342
+6343    6                       255
+6348
+6349    9               0       0
+6352
+6353    8       0x0000  0       1
+6356
+6357    6                       4
+6358
+6359    6                       255
+6362
+6363    6                       4
+6366
+6367    6                       255
+6372
+[USER_REDACTED]@[HOST_REDACTED]:~$ sudo tshark -r /tmp/iphone-dfu.pcapng \
+  -Y 'usb.bus_id == 7 && usb.device_address == 30' \
+  -T fields \
+  -e frame.number \
+  -e usb.setup.bRequest \
+  -e usb.setup.wValue \
+  -e usb.setup.wIndex \
+  -e usb.setup.wLength \
+  -e usb.transfer_type
+Running as user "root" and group "root". This could be dangerous.
+6323    6                       18      0x02
+6326                                    0x02
+6327    6                       9       0x02
+6328                                    0x02
+6329    6                       27      0x02
+6332                                    0x02
+6333    6                       255     0x02
+6334                                    0x02
+6335    6                       255     0x02
+6338                                    0x02
+6339    6                       255     0x02
+6342                                    0x02
+6343    6                       255     0x02
+6348                                    0x02
+6349    9               0       0       0x02
+6352                                    0x02
+6353    8       0x0000  0       1       0x02
+6356                                    0x02
+6357    6                       4       0x02
+6358                                    0x02
+6359    6                       255     0x02
+6362                                    0x02
+6363    6                       4       0x02
+6366                                    0x02
+6367    6                       255     0x02
+6372                                    0x02
+[USER_REDACTED]@[HOST_REDACTED]:~$ sudo rm -f /tmp/iphone-dfu2.pcapng
+[USER_REDACTED]@[HOST_REDACTED]:~$ sudo tshark -i usbmon7 -w /tmp/iphone-dfu2.pcapng
+Running as user "root" and group "root". This could be dangerous.
+Capturing on 'usbmon7'
+28964 ^C
+[USER_REDACTED]@[HOST_REDACTED]:~$ sudo tshark -i usbmon7 -w /tmp/iphone-dfu2.pcapng
+Running as user "root" and group "root". This could be dangerous.
+Capturing on 'usbmon7'
+6224 ^C
+[USER_REDACTED]@[HOST_REDACTED]:~$ sudo tshark -i usbmon7 -w /tmp/iphone-dfu2.pcapng
+Running as user "root" and group "root". This could be dangerous.
+Capturing on 'usbmon7'
+24346 ^C
+[USER_REDACTED]@[HOST_REDACTED]:~$ sudo tshark -i usbmon7 -w /tmp/iphone-dfu2.pcapng
+Running as user "root" and group "root". This could be dangerous.
+Capturing on 'usbmon7'
+12482 ^C
+[USER_REDACTED]@[HOST_REDACTED]:~$ ^C
+[USER_REDACTED]@[HOST_REDACTED]:~$ lsusb -nn | grep -i '05ac'
+lsusb: invalid option -- 'n'
+lsusb: invalid option -- 'n'
+Usage: lsusb [options]...
+List USB devices
+  -v, --verbose
+      Increase verbosity (show descriptors)
+  -s [[bus]:][devnum]
+      Show only devices with specified device and/or
+      bus numbers (in decimal)
+  -d vendor:[product]
+      Show only devices with the specified vendor and
+      product ID numbers (in hexadecimal)
+  -D device
+      Selects which device lsusb will examine
+  -t, --tree
+      Dump the physical USB device hierarchy as a tree
+  -V, --version
+      Show version of program
+  -h, --help
+      Show usage and help
+[USER_REDACTED]@[HOST_REDACTED]:~$ lsusb | grep -i apple
+Bus 007 Device 035: ID 05ac:f014 Apple, Inc. Apple Device (Port DFU Mode)
+[USER_REDACTED]@[HOST_REDACTED]:~$ sudo lsusb -v -d 05ac:f014 2>/dev/null | grep -E \
+'Bus|Device|idVendor|idProduct|iManufacturer|iProduct|bInterfaceClass|bInterfaceSubClass|bInterfaceProtocol|bNumInterfaces'
+Bus 007 Device 036: ID 05ac:f014 Apple, Inc. Apple Device (Port DFU Mode)
+Device Descriptor:
+  bDeviceClass            0 [unknown]
+  bDeviceSubClass         0 [unknown]
+  bDeviceProtocol         0 
+  idVendor           0x05ac Apple, Inc.
+  idProduct          0xf014 Apple Device (Port DFU Mode)
+  bcdDevice            0.00
+  iManufacturer           2 Apple Inc.
+  iProduct                3 Apple Device (Port DFU Mode)
+    bNumInterfaces          1
+      (Bus Powered)
+      bInterfaceClass       254 Application Specific Interface
+      bInterfaceSubClass      1 Device Firmware Update
+      bInterfaceProtocol      2 
+      Device Firmware Upgrade Interface Descriptor:
+Device Status:     0x0000
+  (Bus Powered)
+[USER_REDACTED]@[HOST_REDACTED]:~$ ls -l /sys/bus/usb/devices/7-1.1
+lrwxrwxrwx 1 root root 0 ago 12 23:39 /sys/bus/usb/devices/7-1.1 -> ../../../devices/pci0000:00/0000:00:08.3/0000:12:00.0/usb7/7-1/7-1.1
+[USER_REDACTED]@[HOST_REDACTED]:~$ cat /sys/bus/usb/devices/7-1.1/{idVendor,idProduct,manufacturer,product}
+05ac
+f014
+Apple Inc.
+Apple Device (Port DFU Mode)
+[USER_REDACTED]@[HOST_REDACTED]:~$ sudo cp /tmp/iphone-dfu.pcapng ~/iphone-dfu-backup.pcapng
+[HASH_COMMAND_REDACTED]
+[HASH_REDACTED_AFTER_SANITIZATION]
+[USER_REDACTED]@[HOST_REDACTED]:~$ 
