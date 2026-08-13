@@ -76,4 +76,4 @@ while the behavior remains under investigation.
 
 # log 13/08/26 Part 2
 
-the iphone booted on normally after the "hard reset" i will start to investigate what really happened and upload the poc and console logs
+the iphone booted on normally after the "hard reset" (which consisted of just letting it run out of battery and charging it again) i will start to investigate what really happened and upload the poc and console logs
