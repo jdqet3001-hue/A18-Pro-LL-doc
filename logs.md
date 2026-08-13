@@ -6,11 +6,13 @@ log 12/08/26
 
 log 13/08/26
 
+acclaration here, i will drop the logs of the console and wireshark later while i try to fix the current situation of my phone 
+
 # iPhone DFU/USB State Investigation
 
 > ⚠️ Experimental research — unconfirmed behavior
 
-# DO NOT TRY TO REPLICATE THIS WITH YOUR OWN PERSONAL DEVICE
+# DO NOT TRY TO REPLICATE THIS WITH YOUR OWN PERSONAL DEVICE AS IT MIGHT FAIL TO CHARGE DUE TO UNKNOWN CONDTIONS (for now)
 
 This repository documents an unexpected USB/DFU state observed during
 experimentation with an iPhone and Debian GNU/Linux 13 (trixie).
